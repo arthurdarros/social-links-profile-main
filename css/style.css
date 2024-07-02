@@ -18,9 +18,9 @@ body{
     align-items: center;
     padding: 10%;
     border-radius: 10px;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     background-color: hsl(0, 0%, 12%);
-    height: auto;
     font-family: "Inter", sans-serif ;
 }
 .profile-pic{
@@ -35,17 +35,43 @@ body{
     align-items: center;
     margin-bottom: 15px;
 }
-h1{
+h1, h2{
     text-align: center;
-    font-size: 28pt;
-    margin-top: 0;
+    margin-top: 5%;
     margin-bottom: 0;
+}
+h1{
+    font-size: 20pt;
 }
 h2{
-    margin-top: 0;
-    margin-bottom: 0;
+    font-size: 12pt;
+    color: #c6e758;
+}
+h3{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 12pt;
+}
+.buttons{
+    font-family: "Inter", sans-serif ;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 5%;
+    background-color:#333333;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.buttons:hover{
+    background-color: #c6e758;
+    color: black;
 }
 .attribution { 
+    margin-top: 5%;
     font-size: 11px; 
     text-align: center; 
 }
